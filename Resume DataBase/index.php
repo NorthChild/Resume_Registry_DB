@@ -119,19 +119,7 @@ $count = $stmt -> rowCount();
           </tr>
 
           ');
-
-          // ORIGINAL
-        // while ( $row = $stmt -> fetch(PDO::FETCH_ASSOC)) {
-        //   echo("<tr><td>");
-        //   echo('<a href="view.php?profile_id='.$row['profile_id'].'">'.htmlentities($row['first_name'])." ".htmlentities($row['last_name']).'</a>');
-        //   echo("</td><td>");
-        //   echo(htmlentities($row['headline']));
-        //   echo("</td><td>");
-        //   echo("<a href='edit.php'>Edit</a>"." "."<a href='delete.php'>Delete</a>");
-        //   // hidden user id
-        //   echo("<input type='hidden' name='user_id' value='".$_SESSION['user_id']."'>");
-          // ORIGINAL
-
+       
           while ( $row = $stmt -> fetch(PDO::FETCH_ASSOC)) {
             echo("<tr><td>");
             echo('<a href="view.php?profile_id='.$row['profile_id'].'">'.htmlentities($row['first_name'])." ".htmlentities($row['last_name']).'</a>');
