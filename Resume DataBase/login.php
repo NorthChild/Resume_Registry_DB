@@ -30,25 +30,6 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
 
 ################################ Validation #####################################
 
-    // # validation of the data using nested series of if/elseif statements
-    // if (strlen($email) < 1 || strlen($userPass) < 1) {
-    //   $_SESSION['error'] = 'User Name and Password are required.';
-    //
-    // } elseif (($passCheck === $stored_hash) && ($emailCheck === false)) {
-    //
-    //   error_log("Login fail ".$_POST['email']);
-    //   $_SESSION["error"] = "Email must have an at-sign (@)";
-    //   header("Location: login.php");
-    //   return;
-    //
-    // } elseif (($passCheck === $stored_hash) && ($emailCheck != false)) {
-    //
-    //   header("Location: index.php?email=".urlencode($email));
-    //   error_log("Login success ".$_POST['email']);
-    //   return;
-    // }
-
-
   ## here we cross reference the password stored in the DB
   ## we gather the data
   $check = hash('md5', $salt.$_POST['pass']);
@@ -76,7 +57,6 @@ if (isset($_POST['email']) && isset($_POST['pass'])) {
          return;
 
      }
-
 
 }
 
