@@ -9,7 +9,7 @@ Its also possible to move user information into its own table and link entries b
 
 Here are some general specifications for this application:
 
-   - You must use the PHP PDO database layer for this assignment.
+   - You must use the PHP PDO database layer in order for it to work.
    - All data that comes from the users is properly escaped using the htmlentities() function in PHP.
    - POST-Redirect-GET pattern for all POST requests.
    - Use of the "header('Location: ...');" function and either "return;" or "exit();" to send the location header and redirect
