@@ -17,8 +17,6 @@ header('Location: index.php');
     <title>Assignment - Michael John Carini</title>
   </head>
   <body>
-
-    <p>work in progress</p>
-
+    
   </body>
 </html>
