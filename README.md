@@ -20,5 +20,5 @@ Here are some general specifications for this application:
    - You must use the PHP PDO database layer in order for it to work.
    - All data that comes from the users is properly escaped using the htmlentities() function in PHP.
    - POST-Redirect-GET pattern for all POST requests.
-   - Use of the "header('Location: ...');" function and either "return;" or "exit();" to send the location header and redirect
+   - Use of the "header('Location: ...');" function and "return;" to send the location header and redirect
    - All error messages are "flash-style" messages where the message is passed from a POST to a GET using the SESSION.
