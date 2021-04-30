@@ -1,8 +1,6 @@
 # Resume_Registry_DB
 resume database that supports CRUD, made in PHP and JS
 
-part of my uni course
-
 Simple resume database that support Create, Read, Update, and Delete operations (CRUD). 
 Its also possible to move user information into its own table and link entries between two tables using foreign keys. there is also some in-browser JavaScript data validation.
 
@@ -29,3 +27,7 @@ changes with the update
    - POST-Redirect-GET pattern for all POST requests.
    - Use of the "header('Location: ...');" function and "return;" to send the location header and redirect
    - All error messages are "flash-style" messages where the message is passed from a POST to a GET using the SESSION.
+
+
+
+assignment part of my uni course
