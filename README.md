@@ -7,7 +7,14 @@ Simple resume database that support Create, Read, Update, and Delete operations 
 Its also possible to move user information into its own table and link entries between two tables using foreign keys. there is also some in-browser JavaScript data validation.
 
 
+# Resume_Registry_DB UPDATE
 
+In this next assignment that extended from the original resume database to support CRUD into a Position table that has a many-to-one relationship to our Profile table.
+we'll use JQuery to dynamically add and delete positions in the add and edit user interface.
+
+
+      
+      
 Here are some general specifications for this application:
 
    - You must use the PHP PDO database layer in order for it to work.
