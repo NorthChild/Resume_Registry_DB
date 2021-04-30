@@ -21,7 +21,8 @@ changes with the update
 - changed view.php to also show new table data
 - changed edit.php  to edit new table data
 
-Here are some general specifications for this application:
+
+# Here are some general specifications for this application:
 
    - You must use the PHP PDO database layer in order for it to work.
    - All data that comes from the users is properly escaped using the htmlentities() function in PHP.
