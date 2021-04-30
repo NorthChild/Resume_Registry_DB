@@ -24,7 +24,7 @@ changes with the update
 
 # Here are some general specifications for this application:
 
-   - use of the PHP PDO database connection.
+   - PHP PDO database connection.
    - All data that comes from the users is properly escaped using the htmlentities() function in PHP.
    - POST-Redirect-GET pattern for all POST requests.
    - Use of the "header('Location: ...');" function and "return;" to send the location header and redirect
