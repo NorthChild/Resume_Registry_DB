@@ -12,9 +12,15 @@ Its also possible to move user information into its own table and link entries b
 In this next assignment that extended from the original resume database to support CRUD into a Position table that has a many-to-one relationship to our Profile table.
 we'll use JQuery to dynamically add and delete positions in the add and edit user interface.
 
+changes with the update
 
-      
-      
+- created a utility file so not avoid repeating code throughout the application 
+- added year and description of position to the resume 
+- new position table with many to one relationship to profile 
+- changed add.php to add new table data (year and description)
+- changed view.php to also show new table data
+- changed edit.php  to edit new table data
+
 Here are some general specifications for this application:
 
    - You must use the PHP PDO database layer in order for it to work.
