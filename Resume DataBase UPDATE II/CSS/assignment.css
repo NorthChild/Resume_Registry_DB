@@ -1,0 +1,45 @@
+body {
+  margin: 5% 10% 10% 10%;
+  background-color: #efe6dd;
+}
+
+a {
+  text-decoration: none;
+  color: #495057;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 3%;
+}
+
+p {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#loginBt {
+
+}
+
+#loginBt:hover {
+  color: #adb5bd;
+}
+
+#hint {
+  font-weight: lighter;
+  text-transform: none;
+  font-size: 65%;
+}
+
+a:hover {
+  color: #adb5bd;
+}
+
+a:first-child {
+  margin-right: 2.5%;
+}
+
+th, td {
+  text-align: center;
+  padding: 1%;
+}
